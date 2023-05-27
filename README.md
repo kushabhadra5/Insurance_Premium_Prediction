@@ -8,68 +8,37 @@ This is a Machine learning project that predicts the insurance premium for the i
 -  Number of children
 -  Region
 
-To run this project the system should have 
+To run this project the system should fullfill following requirements:
+### Hardware requirements:
+-  4 GB RAM or more.
+-  An operating system such as Windows, Linux or Mac.
+-  Visual Studio Code or Jupyter notebook.
 
-### Step 1 - Install the requirements
+### Python version >= 3.7
 
-```bash
-pip install -r requirements.txt
-```
+### Other dependencies for modeling:
+-  uvicorn==0.18.3
+-  watchfiles==0.17.0
+-  websockets==10.3
+-  wincertstore==0.2
+-  xgboost==1.6.2
+-  pandas
+-  PyYAML
+-  numpy
+-  scikit-learn
+-  catboost
+-  apache-airflow
+-  click==7.1.2
+-  Flask==1.1.2
+-  gunicorn==20.0.4
+-  itsdangerous==1.1.0
+-  Jinja2==2.11.3
+-  MarkupSafe==1.1.1
+-  Werkzeug==1.0.1
 
-### Step 2 - Run main.py file
+The project is deployed on Render
 
-```bash
-python main.py
-```
+# Render Deployment Link :
 
-
-To download  dataset
-
-```
-wget https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction
-```
-
-
-Initiate git in the project
-```
-git init
-```
-Note: This is going to initalize git in source code.
-
-Add your changes made in file to git stagging are
-```
-git add file_name
-```
-Note: You can given file_name to add specific file or use "." to add everything to staging are
-
-
-Create commits
-```
-git commit -m "message"
-```
-
-```
-git push origin main
-```
-Note: origin--> contains url to your github repo
-main--> is your branch name 
-
-To push your changes forcefully.
-```
-git push origin main -f
-```
-
-
-To pull  changes from github repo
-```
-git pull origin main 
-```
-Note: origin--> contains url to your github repo
-main--> is your branch name
-
-
-
-# AWS Deployment Link :
-
-App link : https://insurance-premium-8gyj.onrender.com/
+App link : https://insurance-premium-prediction-407q.onrender.com/
 
